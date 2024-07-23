@@ -1,0 +1,23 @@
+{
+  "name": "d9",
+  "version": "1.0.0",
+  "description": "D3 x Three for 3D data visualization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomswisher/d9.git"
+  },
+  "author": "Tom Swisher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomswisher/d9/issues"
+  },
+  "homepage": "https://github.com/tomswisher/d9#readme",
+  "dependencies": {
+    "d3": "^7.9.0",
+    "three": "^0.166.1"
+  }
+}
