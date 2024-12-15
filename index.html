@@ -1,0 +1,31 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>d9</title>
+        <script type="importmap">
+            {
+                "imports": {
+                    "d3": "./d3.v7.js",
+                    "three": "./three.module.js",
+                    "OrbitControls": "./OrbitControls.js"
+                }
+            }
+        </script>
+        <style>
+            body {
+                margin: 0;
+                overflow: hidden;
+            }
+            #container {
+                outline: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <button onClick="window.animating = !window.animating">Toggle Animating</button>
+        <button onClick="window.updating = !window.updating">Toggle Updating</button>
+        <div style="display: inline-block;" id="container"></div>
+        <script type="module" src="main.js"></script>
+    </body>
+</html>
